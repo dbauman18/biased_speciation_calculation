@@ -1,0 +1,17 @@
+# Ignore common Python virtual environment directories
+venv/
+.venv/
+env/
+ENV/
+.env/
+venv.bak/
+
+# Optional: virtualenvwrapper & pipenv/poetry artifacts
+.virtualenv/
+.pipenv/
+.poetry/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
